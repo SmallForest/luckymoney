@@ -1,5 +1,6 @@
-package com.imooc.luckymoney;
+package com.imooc.luckymoney.repository;
 
+import com.imooc.luckymoney.controller.entity.Luckmoney;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface LuckymoneyRepository extends JpaRepository<Luckmoney,Integer> {

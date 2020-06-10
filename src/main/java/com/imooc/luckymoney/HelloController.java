@@ -1,10 +1,11 @@
 package com.imooc.luckymoney;
 
+import com.imooc.luckymoney.config.LimitConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * 这是个例子代码
+ * 这是个例子代码 可随意删除
  * @Controller+@ResponseBody=@RestController
  */
 @RestController

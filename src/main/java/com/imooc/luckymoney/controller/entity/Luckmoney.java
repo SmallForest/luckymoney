@@ -1,4 +1,4 @@
-package com.imooc.luckymoney;
+package com.imooc.luckymoney.controller.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
