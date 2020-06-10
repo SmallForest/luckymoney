@@ -1,8 +1,8 @@
 package com.imooc.luckymoney.controller;
 
-import com.imooc.luckymoney.controller.entity.Luckmoney;
+import com.imooc.luckymoney.entity.Luckmoney;
 import com.imooc.luckymoney.repository.LuckymoneyRepository;
-import com.imooc.luckymoney.repository.service.LuckymoneyService;
+import com.imooc.luckymoney.service.LuckymoneyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
