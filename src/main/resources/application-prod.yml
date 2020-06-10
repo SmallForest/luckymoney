@@ -1,0 +1,23 @@
+# 生产环境 上线环境
+server:
+  port: 8081 # 默认端口http://localhost:8081/luckymoney/hello
+  servlet:
+    context-path: /luckymoney #servlet-content
+
+#自定义配置
+limit:
+  maxMoney: 10000
+  minMoney: 1 #空格不能缺少！！
+  description: 最少${limit.minMoney}元,最多${limit.maxMoney}元 #在配置里面使用配置
+
+# MySQL连接配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:8889/luckymoney
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true #显示SQL
